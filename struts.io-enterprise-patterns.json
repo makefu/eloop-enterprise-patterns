@@ -1,0 +1,167 @@
+{
+  "slides": [
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 180,
+      "y": 180,
+      "background": "bg-default",
+      "surface": "bg-surf-grad-smoke",
+      "markdown": "<br/>\n<br/>\n#Enterprise Patterns\n<br/>\n## makefu (krebscode)"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 112,
+          "y": 212,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>„Es ist schon alles gesagt,<br>nur noch nicht von allen.“<br></b><div style=\"text-align: left;\"><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Karl Valentin</i></div><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 458,
+      "y": 180
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "<br/>\n# Wer bin ich\n<br/>\n* Security Architect seit 2013\n* aktiv im Enterprise Umfeld seit 2010\n* oft und tief in div. Abgründe geblickt\n",
+      "x": 740,
+      "y": 180,
+      "surface": "bg-surf-grad-smoke"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "markdown": "<br/>\n# Ziel\n* Welche Patterns halten Unternehmen und dessen Software **am laufen**\n* Wie erkenne ich Premium Software\n* Wie kann **ich** dieses universelle Wissen anwenden?",
+      "x": 1001,
+      "y": 181
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font><b>Problem 1:</b><br></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 280,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<span style=\"text-align: center;\">Resilienz<br></span><span style=\"text-align: center;\">der</span><span style=\"text-align: center;\"><br></span><div style=\"text-align: center;\">Applikation</div>",
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "center"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": true,
+      "active": true
+    }
+  ],
+  "background": "bg-solid-smoke",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 170,
+        "y": 89,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font><b>Problem 1:</b><br></font>",
+        "size": 144,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 269,
+        "y": 280,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 96,
+        "text": "<span style=\"text-align: center;\">Resilienz<br></span><span style=\"text-align: center;\">der</span><span style=\"text-align: center;\"><br></span><div style=\"text-align: center;\">Applikation</div>",
+        "selected": false,
+        "skewX": 0,
+        "customClasses": "center"
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 4,
+    "selected": true,
+    "active": true
+  },
+  "fileName": "presentation-unnamed",
+  "surface": "bg-surf-grad-smoke",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/\n.strut-surface body {\n}\n.strut-surface ul > li {\n  font-size: 1.5em;\n  margin: 0.8em;\n  line-height: 1.2em;\n}\n.strut-surface .center {\n  text-align: center;\n}",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 460,
+  "overviewY": 180
+}

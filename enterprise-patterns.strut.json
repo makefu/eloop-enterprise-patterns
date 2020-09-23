@@ -1,0 +1,912 @@
+{
+  "slides": [
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 220,
+      "y": 100,
+      "background": "bg-default",
+      "surface": "bg-surf-grad-smoke",
+      "markdown": "<br/>\n<br/>\n#Enterprise Patterns\n<br/>\n## makefu (krebscode)"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 112,
+          "y": 212,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>„Es ist schon alles gesagt,<br>nur noch nicht von allen.“<br></b><div style=\"text-align: left;\"><i>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Karl Valentin</i></div><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 480,
+      "y": 100
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 118,
+          "y": 318,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<ul><li>Security Architect seit 2013<br><br></li><li>aktiv im Enterprise Umfeld seit 2010<br><br></li><li>oft und tief in div. Abgründe geblickt<br></li></ul><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "<br/>\n# Wer bin ich\n",
+      "x": 740,
+      "y": 100,
+      "surface": "bg-surf-grad-smoke"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 213,
+          "y": 327,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\">Sie sorgen dafür,</div><div style=\"text-align: center;\">dass <i>Dinge</i></div><div style=\"text-align: center;\"><b style=\"font-weight: bold;\">immer</b> und <b style=\"font-weight: bold;\">für immer</b></div><div style=\"text-align: center;\">funktionieren</div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "markdown": "# Was sind Enterprise Patterns?",
+      "x": 1000,
+      "y": 100
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 180,
+          "y": 159,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 52,
+          "text": "<ul><li>Welche Patterns halten <br>Unternehmen und dessen <br>Software <b>am laufen<br></b><br></li><li>Wie erkenne ich <br>Premium Software<br><br></li><li>Wie kann <b>ich</b> dieses <br>universelle Wissen anwenden?<br></li></ul>",
+          "selected": false,
+          "customClasses": ""
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "markdown": "# Ziel",
+      "x": 1260,
+      "y": 100
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font><b>Problem 1:</b><br></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 269,
+          "y": 280,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<span style=\"text-align: center;\">Resilienz<br></span><span style=\"text-align: center;\">der</span><span style=\"text-align: center;\"><br></span><div style=\"text-align: center;\">Applikation</div>",
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "center"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 220,
+      "y": 280
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 255,
+          "y": 436,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 23,
+          "y": 726,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 25,
+          "text": "<font color=\"#000000\"><b><a href=\"https://github.com/eloop-congress/enterprise-patterns/wiki/Enterpriseloop-von-a-bis-z\" target=\"_blank\">https://github.com/eloop-congress/enterprise-patterns/wiki/Enterpriseloop-von-a-bis-z</a></b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 480,
+      "y": 280,
+      "markdown": "# Enterprise Loop<br/>(eloop)\n"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 28,
+          "y": 221,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 90,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\">while sleep 1;do<br></font><b>&nbsp; /opt/dev/bin/startup.sh<br></b>done<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1.2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 420,
+      "y": 300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 18,
+          "y": 59,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 90,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\">@echo off<br></font>cls<br>:loop<br>start run.exe<br>ping -n 1 127.0.0.1 &gt; NUL<br>goto :loop<br>",
+          "selected": false
+        }
+      ],
+      "z": 10,
+      "impScale": 1.2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 540,
+      "y": 300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 255,
+          "y": 436,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 94,
+          "y": 24,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\"><br></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 724,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<font color=\"#000000\"><b>auch Pokémon Exception Handling, durch eloop ersetzbar<br></b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 740,
+      "y": 280,
+      "markdown": "# Enterprise Exception Handling"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 174,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 69,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\">while true:<br>&nbsp; try:<br>&nbsp; &nbsp; business_process()<br>&nbsp; except Exception as e:<br>&nbsp; &nbsp; print(\"oh snap:\"+e)</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 10,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 740,
+      "y": 300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 474,
+          "y": 172,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Lato\" color=\"#878787\"><b>aka</b></font>",
+          "selected": false
+        },
+        {
+          "src": "https://media.makeameme.org/created/hello-have-you-wiaiqa.jpg",
+          "type": "Image",
+          "x": 192,
+          "y": 237,
+          "scale": {
+            "x": 1.28,
+            "y": 1.28,
+            "width": 640,
+            "height": 495.36
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 1,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": true,
+      "active": true,
+      "x": 1000,
+      "y": 280,
+      "markdown": "# Rebooting\n"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font><b>Problem 2:</b><br></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 275,
+          "y": 280,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "Resilienz<br>der<br>Installation<br>",
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "center"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 220,
+      "y": 460,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 93,
+          "y": 339,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li>OS Detektierung<br></li><li>Paket Manager Detektierung</li><li>Kein Internet<br><br></li><li><b>Keine Vorurteile!</b><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "markdown": "# Enterprise Installation",
+      "x": 480,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "src": "https://media3.giphy.com/media/3o6UBgTW5niwy25kkw/200_s.gif",
+          "type": "Image",
+          "x": 212,
+          "y": 287,
+          "scale": {
+            "x": 1.7464788732394365,
+            "y": 1.7464788732394365,
+            "width": 620,
+            "height": 349.2957746478873
+          },
+          "imageType": "GIF",
+          "selected": false,
+          "rotate": 0
+        }
+      ],
+      "z": 1000,
+      "impScale": 3,
+      "rotateX": 1.57,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 480,
+      "y": 460,
+      "markdown": "# Enterprise Installation"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 180,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: Lato;\">Nützlich als Einstiegspunkt für</span></div><font color=\"#333333\" face=\"Lato\"><div style=\"text-align: center;\">eine Enterprise Installation</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 86,
+          "y": 574,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#333333\" face=\"Lato\">Beispiele im Produktiveinsatz:<br><a href=\"https://curlpipesh.tumblr.com/\" target=\"_blank\">https://curlpipesh.tumblr.com/</a><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 62,
+          "y": 408,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Droid Sans Mono, monospace\">curl https://sprunge.us/aPJX</font>&nbsp; | &nbsp;sh<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "markdown": "# CURL PIPE SH\n",
+      "x": 740,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 68,
+          "y": 702,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#000000\" face=\"Lato\">VMWare/VBox Vendor Image doppelklicken</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 10,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "markdown": "# Wegdockern",
+      "x": 1000,
+      "y": 460
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 173,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 69,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">docker run --rm \\<br>&nbsp; -p 8000:8000 \\<br>&nbsp; -P eloop/eloop.org &amp;<br><br></font>firefox localhost:8000</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 10,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 1010,
+      "y": 472,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 170,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font><b>Problem 3:</b><br></font>",
+          "size": 144,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 265,
+          "y": 280,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "Faulheit<br>des<br>Entwicklers<br>",
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "center"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 220,
+      "y": 640,
+      "markdown": ""
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 4,
+          "y": 304,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 121,
+          "y": 327,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li>Source Based Documentation<br><br></li><li>Enterprise Root<br><br></li><li>Enterprise Deep Copy</li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "x": 480,
+      "y": 637,
+      "markdown": "# Generelle Programmiermuster"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 8,
+          "y": 298,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 46,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">if test \"${nosudo-false}\" != true</font>&nbsp; \\<br>&nbsp; &nbsp;-a `id -u` != 0; then<br>&nbsp; echo \"we're going sudo...\" &gt;&amp;2<br><font color=\"#ff0013\">&nbsp; exec sudo \"$0\" \"$@\"<br></font>&nbsp; exit 23 # go to hell<br>fi</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 1000,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": -1.57,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 660,
+      "y": 640,
+      "markdown": "# Enterprise Root\n"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 64,
+          "y": 336,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 46,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">#! /bin/sh<br># auch 'literate programming'<br></font>if echo \"$*\" | \\<br>&nbsp; &nbsp;grep -q '\\(^\\| \\)-h\\( \\|$\\)';<br>then<br>&nbsp; &nbsp; cat \"$0\"<br>fi</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 1000,
+      "impScale": 2,
+      "rotateX": -1.57,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 733,
+      "y": 706,
+      "markdown": "# Source-Based Documentation\n"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 120,
+          "y": 320,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 46,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\">var copy = <br>&nbsp; &nbsp; JSON.<i>parse</i>(<br>&nbsp; &nbsp; &nbsp; JSON.<i>stringify</i>(<b>source</b>)<br>&nbsp; &nbsp; )<br></font><br><br>",
+          "selected": false
+        }
+      ],
+      "z": 1000,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 1.57,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-light",
+      "x": 820,
+      "y": 640,
+      "markdown": "# Enterprise Deep Copy\n"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 4,
+          "y": 304,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 139,
+          "y": 286,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li>Bug-Driven Development<br><br></li><li>Litterate Programming<br><br></li><li>Enterprise Waiting<br><br></li><li>Complainterprise Waiting</li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "x": 995,
+      "y": 637,
+      "markdown": "# Generelle Verhaltensmuster"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 4,
+          "y": 304,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 139,
+          "y": 286,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<ul><li><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
+      "active": false,
+      "x": 1260,
+      "y": 460,
+      "markdown": "<br/>\n<br/><br/><br/><br/>\n\n\n# Danke für die Aufmerksamkeit"
+    }
+  ],
+  "background": "bg-solid-smoke",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 474,
+        "y": 172,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 48,
+        "text": "<font face=\"Lato\" color=\"#878787\"><b>aka</b></font>",
+        "selected": false
+      },
+      {
+        "src": "https://media.makeameme.org/created/hello-have-you-wiaiqa.jpg",
+        "type": "Image",
+        "x": 192,
+        "y": 237,
+        "scale": {
+          "x": 1.28,
+          "y": 1.28,
+          "width": 640,
+          "height": 495.36
+        },
+        "imageType": "JPG",
+        "selected": false
+      }
+    ],
+    "z": 1,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 11,
+    "selected": true,
+    "active": true,
+    "x": 1000,
+    "y": 280,
+    "markdown": "# Rebooting\n"
+  },
+  "fileName": "enterprise-patterns.strut",
+  "surface": "bg-surf-grad-smoke",
+  "customStylesheet": "/*.example {\n\tborder: 4px groove orange;\n}*/\n\n.strut-surface .center {\n  text-align: center;\n}\n\n.strut-surface h1 {\n  font-size:3em; \n}",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  }
+}
